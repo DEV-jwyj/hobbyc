@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+	margin: 0;
+}
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+/****** 메인화면 로그인,회원가입 시작 *****/
+ul.mainHeaderLogin {
+	background-color: #efefef;
+	height: 30px;
+	margin: 0;
+}
+ul.mainHeaderLogin li:first-of-type { 
+	margin-right: 40px;
+}
+ul.mainHeaderLogin li a{
+	float: right;
+	padding: 5px;
+	color: #777676;
+	margin-left: 15px;
+	font-size: 13px;
+}
+ul.mainHeaderLogin li a:hover {
+	color: #565656;
+}
