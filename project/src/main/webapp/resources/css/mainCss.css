@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 body {
 	margin: 0;
@@ -26,4 +27,36 @@ ul.mainHeaderLogin li a{
 }
 ul.mainHeaderLogin li a:hover {
 	color: #565656;
+}
+
+/***메인화면 상단 로고 및 검색창***/
+div.maintop {
+	background-color: orange;
+}
+div.innerTop {
+	width: 80%;
+	margin: 0 auto;
+}
+div.innerTop h1.logo {
+	display: inline-block;
+}
+div.topSearchForm {
+	display: inline-block;
+	margin-left: 30px;
+	position: relative;
+}
+div.topSearchForm input[type="text"] {
+	padding: 10px;
+    border: none;
+    outline: white;
+    border-radius: 9px;
+}
+div.topSearchForm input[type="submit"] {
+	display: none;
+}
+div.topSearchForm label {
+	position: absolute;
+	top: 1px;
+	right: 5px;
+	color: gray;
 }

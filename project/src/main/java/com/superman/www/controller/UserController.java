@@ -10,4 +10,8 @@ public class UserController {
 	public String join() {
 		return "join";
 	}
+	@RequestMapping("/main")
+	public String main() {
+		return "main";
+	}
 }
