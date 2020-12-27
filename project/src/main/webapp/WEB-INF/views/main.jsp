@@ -13,7 +13,6 @@
 <title>방구석 취미생활의 시작 ! </title>
 </head>
 <body>
-	<p>tesstt</p>
 	<header id="mainHeader">
 		<ul class="mainHeaderLogin">
 			<li><a href="">고객센터</a></li>
