@@ -1,4 +1,10 @@
+/**
+ * 
+ */
 
+function idCheck() {
+	window.open("check_id.jsp","check_id","width=460, height=250, left=1200, top=300");
+}
 function sample4_execDaumPostcode() {
 					new daum.Postcode(
 							{
