@@ -18,7 +18,7 @@
 		<ul class="mainHeaderLogin">
 			<li><a href="">고객센터</a></li>
 			<li><a href="">로그인</a></li>
-			<li><a href="">회원가입</a></li>
+			<li><a href="join">회원가입</a></li>
 		</ul>
 		<div class="maintop">
 			<div class="innerTop">
