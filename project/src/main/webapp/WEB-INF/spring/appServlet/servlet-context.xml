@@ -36,12 +36,13 @@
 	
 	<beans:bean id="sqlSessionFactroy" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<beans:property name="dataSource" ref="dataSource"/>
-		<beans:property name="mapperLocations" value="classpath:com/superman/www/dao/mapper/*.xml"/>
+		<beans:property name="mapperLocations" value="classpath*:/mapper/*.xml"/>
 	</beans:bean>
 	
 	<beans:bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
-		<beans:constructor-arg index="0" ref="sqlSessionFactory"/>
+		<beans:constructor-arg index="0" ref="sqlSessionFactroy" name="sqlSessionFactory"/>
 	</beans:bean>
+	
 	
 	
 </beans:beans>

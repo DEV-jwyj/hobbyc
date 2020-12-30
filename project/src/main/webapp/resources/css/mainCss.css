@@ -31,32 +31,199 @@ ul.mainHeaderLogin li a:hover {
 
 /***메인화면 상단 로고 및 검색창***/
 div.maintop {
-	background-color: orange;
+	border-bottom: 1px solid orange;
 }
 div.innerTop {
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
 }
-div.innerTop h1.logo {
-	display: inline-block;
+div.innerTop img {
+	width: 200px;
+	margin: 15px;
+	vertical-align: top;
 }
 div.topSearchForm {
 	display: inline-block;
-	margin-left: 30px;
-	position: relative;
+    margin-left: 6%;
+    position: relative;
+    padding-top: 2.2%;
 }
 div.topSearchForm input[type="text"] {
-	padding: 10px;
-    border: none;
-    outline: white;
+	padding: 14px;
+    border: 3px solid orange;
+    outline: orange;
     border-radius: 9px;
+    font-size: 1.1em;
 }
 div.topSearchForm input[type="submit"] {
 	display: none;
 }
 div.topSearchForm label {
 	position: absolute;
-	top: 1px;
-	right: 5px;
-	color: gray;
+	bottom: 9px;
+	right: 10px;
+	color: #f3682e;
+	cursor: pointer;
 }
+/***인기검색어-랜덤처리***/
+div.popSearch {
+	display: inline-block;
+	margin-left: 15px;
+	position: relative;
+}
+div.popSearch b {
+	color: #164803;
+}
+/***헤더 아이콘***/
+ul.topMyInfo {
+	float: right;
+}
+ul.topMyInfo li {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+ul.topMyInfo li span {
+	color: #4a4a4a;
+	font-size: 0.8em;
+}
+ul.topMyInfo li i {
+	margin-bottom: 2px;
+}
+ul.topMyInfo li a {
+	color: orange;
+}
+ul.topMyInfo li a:first-of-type {
+	margin-left: 15px;
+}
+/***헤더 서브메뉴***/
+div.headerSubMenu {
+	background-color: orange;
+	height: 60px;
+}
+div.headerSubMenu ul {
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 2;
+}
+div.headerSubMenu ul li {
+	display:table-cell;
+	padding: 10px;
+	width: 1%;
+}
+div.headerSubMenu ul li a{
+	color: white;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+div.headerSubMenu ul li a:hover {
+	color: #fffc00;
+}
+
+
+
+
+/***푸터***/
+
+
+
+
+
+
+
+
+
+/***버전.2
+
+
+
+
+ul.mainHeaderLogin {
+	background-color: #efefef;
+	height: 30px;
+	margin: 0;
+}
+ul.mainHeaderLogin li:first-of-type { 
+	margin-right: 40px;
+}
+ul.mainHeaderLogin li a{
+	float: right;
+	padding: 5px;
+	color: #777676;
+	margin-left: 15px;
+	font-size: 13px;
+}
+ul.mainHeaderLogin li a:hover {
+	color: #565656;
+}
+
+
+div.maintop {
+	background-color: orange;
+}
+div.innerTop {
+	width: 70%;
+	margin: 0 auto;
+}
+div.innerTop img {
+	width: 200px;
+	margin: 15px;
+	vertical-align: top;
+}
+div.topSearchForm {
+	display: inline-block;
+    margin-left: 6%;
+    position: relative;
+    padding-top: 2.2%;
+}
+div.topSearchForm input[type="text"] {
+	padding: 14px;
+    border: none;
+    outline: white;
+    border-radius: 9px;
+    font-size: 1.1em;
+}
+div.topSearchForm input[type="submit"] {
+	display: none;
+}
+div.topSearchForm label {
+	position: absolute;
+	bottom: 7px;
+	right: 5px;
+	color: #f3682e;
+	cursor: pointer;
+}
+div.popSearch {
+	display: inline-block;
+	margin-left: 15px;
+	position: relative;
+}
+div.popSearch b {
+	color: #164803;
+}
+ul.topMyInfo {
+	float: right;
+}
+ul.topMyInfo li {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+ul.topMyInfo li span {
+	color: #4a4a4a;
+	font-size: 0.8em;
+}
+ul.topMyInfo li i {
+	margin-bottom: 2px;
+}
+ul.topMyInfo li a {
+	color: white;
+}
+ul.topMyInfo li a:first-of-type {
+	margin-left: 15px;
+}
+
+
+***/
