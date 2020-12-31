@@ -12,6 +12,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
 <link href="resources/css/mainCss.css" rel="stylesheet" />
 <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="resources/js/mainSlider.js"></script>
+<script>
+	  $(document).ready(function(){ $('.slider').bxSlider(); });
+</script>
 <title>Come into contact as a hobby "취미로 소통하다."</title>
 </head>
 <body>
@@ -59,11 +65,28 @@
 				<li><a href="">공유</a></li>
 				<li><a href="">후기</a></li>
 				<li><a href="">마켓</a></li>
-				<li><a href="">더보기</a></li>
+				<li class="moresub">
+					<input type="checkbox" id="moreSubChk"><label for="moreSubChk">더보기 ▼</label>
+					<ul class="moreSubMenu">
+						<li><a href="">공지사항</a></li>
+						<li><a href="">이벤트</a></li>
+						<li><a href="">커뮤니티</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</header>
 	<section id="">
+		<div class="mainImgSlider">
+			<ul class="bxslider">
+					<li>
+						<img src="resources/img/banner1.png" />
+					</li>
+					<li>
+						<img src="resources/img/banner2.png" />
+					</li>
+			</ul>
+		</div>
 		<aside id="">
 		
 		</aside>

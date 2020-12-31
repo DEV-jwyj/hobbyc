@@ -121,11 +121,53 @@ div.headerSubMenu ul li a{
 div.headerSubMenu ul li a:hover {
 	color: #fffc00;
 }
+div.headerSubMenu ul li input[type="checkbox"]{
+	display: none;
+}
+div.headerSubMenu ul li.moresub {
+	position: relative;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+div.headerSubMenu ul li input[type="checkbox"]:checked~ul.moreSubMenu{
+	display: block;
+}
+div.headerSubMenu ul li ul.moreSubMenu {
+	border:1px solid #ddd;
+	border-radius:5px;
+	position: absolute;
+	padding: 5px;
+	width: 100%;
+	background-color: white;
+	z-index: 999;
+	right: 0;
+	display:none;
+}
+div.headerSubMenu ul li ul.moreSubMenu li {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+div.headerSubMenu ul li ul.moreSubMenu li a{
+	color: gray;
+	font-size: 0.8em;
+	font-weight: lighter;
+}
+div.headerSubMenu ul li ul.moreSubMenu li a:hover {
+	color: black;
+}
 
-
-
-
-/***푸터***/
+/***이미지슬라이드***/
+div.bx-viewport {
+	text-align: center;
+}
+div.mainImgSlider ul.bxslider li img {
+	width: 1300px;
+	height: 500px;
+	border-radius: 10px;
+}
 
 
 
