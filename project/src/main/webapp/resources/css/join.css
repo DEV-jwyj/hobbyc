@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body {
+	background:#F1F1F2;
+	text-align: center;
+}
+
+#caption {
+	font-size: 36px;
+	font-weight: bold;
+	margin:50px 0 30px 0;
+}
+input[type='text'],input[type='password'] {
+	height:70px;
+	width:600px;
+	box-sizing: border-box;
+	font-size: 20px;
+	padding-left: 30px;
+	outline: none;
+	vertical-align: middle;
+	border: 1px solid #CCCCCC;
+}
+
+input[type='text']:focus,input[type='password']:focus {
+	transition:0.3s;
+	border:3px solid #FF7B30;
+}
+
+#post_search {
+    outline: none;
+    background-color:#FF7B30;
+    color: #FFFFDC;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    vertical-align: middle;
+    margin-left: -147px;
+    padding: 22px 14px;
+}
+#post_search:hover {
+	background-color:#FF6D23;
+}
+
+/**** 회원가입/홈으로 ****/
+#select {
+	margin:50px;	
+}
+#select input {
+	box-sizing: border-box;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 70px;
+    background-color: #FF7B30;
+    border: none;
+    color: #FFFFDC;
+}
+#select input[type='button'] {
+	margin-left: -10px;
+    border-left: 1px solid #F1F1F2;
+}
+#select input:hover {
+	background-color:#FF6D23;
+}
+#sample4_extraAddress {
+	display: none;
+}

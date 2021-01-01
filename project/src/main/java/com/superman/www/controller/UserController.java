@@ -14,4 +14,8 @@ public class UserController {
 	public String main() {
 		return "main";
 	}
+	@RequestMapping("/login")
+	public String login() {
+		return "login";
+	}
 }
