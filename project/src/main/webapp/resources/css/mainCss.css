@@ -169,8 +169,10 @@ div.mainImgSlider ul.bxslider li img {
 	border-radius: 10px;
 }
 
-
-
+/**수정**/
+div.bx-controls-direction {
+	
+}
 
 
 
