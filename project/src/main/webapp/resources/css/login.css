@@ -38,3 +38,22 @@ input[type='submit'] {
 input[type='submit']:hover {
 	background-color:#FF6D23;
 }
+#under {
+	margin-top:50px;
+}
+#under input[type="button"] {
+	box-sizing: border-box;
+	width:150px;
+	height:60px;
+	font-weight: bold;
+	background-color:white;
+	border: 1px solid #CCCCCC;
+}
+#under input[type="button"]:hover {
+	transition:0.5s;
+	background-color:#FF6D23;
+	color:#FFFFDC;
+}
+.not-first-child {
+	margin-left: -6px;
+}

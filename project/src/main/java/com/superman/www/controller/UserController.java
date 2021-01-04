@@ -18,4 +18,8 @@ public class UserController {
 	public String login() {
 		return "login";
 	}
+	@RequestMapping("/loginOK")
+	public String loginOK() {
+		return "main";
+	}
 }
