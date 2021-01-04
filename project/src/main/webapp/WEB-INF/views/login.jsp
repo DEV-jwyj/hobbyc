@@ -4,8 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="${ pageContext.request.contextPath }/resources/css/login.css">
+<title>Come into contact as a hobby "취미로 소통하다."</title>
+
 </head>
 <body>
 	<div id="center">

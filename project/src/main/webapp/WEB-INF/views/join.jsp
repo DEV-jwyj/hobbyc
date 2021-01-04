@@ -4,8 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Come into contact as a hobby "취미로 소통하다."</title>
 <link rel="stylesheet" href="${ pageContext.request.contextPath }/resources/css/join.css">
+<link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
 <script src="${pageContext.request.contextPath}/resources/js/join.js"></script>
 <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 

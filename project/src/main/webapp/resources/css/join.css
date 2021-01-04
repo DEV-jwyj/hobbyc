@@ -64,3 +64,6 @@ input[type='text']:focus,input[type='password']:focus {
 #sample4_extraAddress {
 	display: none;
 }
+#guide {
+	display: none !important ;
+}
