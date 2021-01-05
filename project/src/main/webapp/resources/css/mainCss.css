@@ -160,13 +160,13 @@ div.headerSubMenu ul li ul.moreSubMenu li a:hover {
 }
 
 /***이미지슬라이드***/
-div.bx-viewport {
-	text-align: center;
+div.bx-wrapper {
+	box-shadow: none;
+	-webkit-box-shadow:none;
 }
-div.mainImgSlider ul.bxslider li img {
-	width: 1400px;
-	height: 457px;
-
+div.bx-wrapper img{
+	margin: 0 auto;
+	border: 1px solid #e8e2e2;
 }
 
 /**수정**/

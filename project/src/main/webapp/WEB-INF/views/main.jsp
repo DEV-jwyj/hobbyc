@@ -11,6 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
 <link href="resources/css/mainCss.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -84,6 +85,15 @@
 					</li>
 					<li>
 						<img src="resources/img/banner2.png" />
+					</li>
+					<li>
+						<img src="resources/img/banner3.png" />
+					</li>
+					<li>
+						<img src="resources/img/banner4.png" />
+					</li>
+					<li>
+						<img src="resources/img/banner5.png" />
 					</li>
 			</ul>
 		</div>
