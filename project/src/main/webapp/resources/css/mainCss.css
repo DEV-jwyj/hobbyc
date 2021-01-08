@@ -169,15 +169,59 @@ div.bx-wrapper img{
 	border: 1px solid #e8e2e2;
 }
 
-/**수정**/
-div.bx-controls-direction {
-	
+/**메인 오늘의 추천취미**/
+div.mainTodayHobbyForm {
+	margin-left: 20px;
+	width: 98%;
+	height: auto;
 }
-
-
-
-
-
+div.mainTodayHobbyForm div.todayHobby {
+	background-color: #f6f6f6;
+	width: 23%;
+	overflow: hidden;
+	float: left;
+	margin: 15px;
+}
+div.mainTodayHobbyForm div.todayHobby div.imglayOut {
+	width: 400px;
+	height: 250px;
+	overflow: hidden;
+}
+div.mainTodayHobbyForm div.todayHobby div.imglayOut img {
+	width: 400px;
+	height: 250px;
+	transition:1s;
+}
+div.mainTodayHobbyForm div.todayHobby div.imglayOut img:hover {
+	width: 440px;
+	height: 320px;
+}
+div.mainTodayHobbyForm div.todayHobby p.write {
+	font-size: 1.1em;
+	margin: 2px 5px;
+	font-weight: bold;
+}
+div.mainTodayHobbyForm div.todayHobby p.contents {
+	font-size: 1.1em;
+	margin: 5px;
+}
+div.moreContents {
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+div.moreContents a {
+	color: black;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    width: 340px;
+    border-radius: 6px;
+    font-size: 1.1em;
+}
+div.moreContents a:hover {
+	background-color: #f6f6f6;
+}
 
 /***버전.2
 

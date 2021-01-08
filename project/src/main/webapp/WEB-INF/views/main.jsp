@@ -97,9 +97,27 @@
 					</li>
 			</ul>
 		</div>
-		<aside id="">
+		<div class="mainTodayHobbyForm">
+			<h2>오늘의 추천취미</h2>
+			<c:forEach begin="1" end="4" >
+			<div class="todayHobby">
+				<div class="imglayOut">
+					<a href=""><img src="resources/img/knitting1.jpg" /></a>
+				</div>
+				<p class="write">빵지</p>
+				<p class="contents">뜨개질로 곰돌이 만들기</p>
+			</div>
+			</c:forEach>
+		</div>
+		<div class="moreContents">
+			<a href=""> 오늘의 추천취미 더보기</a>
+		</div>
 		
-		</aside>
+		
+		<div class="mainTodayHobbyForm">
+			<h2>회원님의 스토리</h2>
+			
+		</div>
 	</section>
 	<footer id="footer">
 		
