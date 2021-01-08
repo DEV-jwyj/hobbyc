@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#logo img{
+	width: 120px;
+    float: right;
+}
+div{
+	padding-top:70px;
+	margin:0 auto;
+	text-align: center;
+}
+div input[type='text'] {
+	font-weight: bold;
+    width: 320px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #CCCCCC;
+    outline:none;
+}
+div input[type='text']:focus{
+	transition:0.3s;
+	border:3px solid #FF7B30;
+}
