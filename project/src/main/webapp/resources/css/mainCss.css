@@ -199,12 +199,14 @@ div.mainTodayHobbyForm div.todayHobby div.imglayOut img:hover {
 div.mainTodayHobbyForm div.todayHobby p.write {
 	font-size: 1.1em;
 	margin: 2px 5px;
-	font-weight: bold;
+	color: #5a5858;
 }
 div.mainTodayHobbyForm div.todayHobby p.contents {
 	font-size: 1.1em;
 	margin: 5px;
+	
 }
+/**공통 더보기 버튼**/
 div.moreContents {
 	clear: both;
 	text-align: center;
@@ -222,7 +224,49 @@ div.moreContents a {
 div.moreContents a:hover {
 	background-color: #f6f6f6;
 }
-
+/***메인 스토리***/
+div.mainStoryForm {
+	margin-left: 20px;
+	width: 98%;
+	height: auto;
+}
+div.mainStoryForm div.mainStory {
+	border: 1px solid #ddd;
+	width:23%;
+	overflow: hidden;
+	float: left;
+	margin: 15px;
+}
+div.mainStoryForm div.mainStory:hover {
+	border:1.5px solid black;
+}
+div.mainStoryForm div.mainStory div.storyContentImg img {
+	width: 80px;
+	float: left;
+	padding: 5px;
+}
+div.storyContentImg ul {
+	margin: 0;
+	padding-top: 10px;
+}
+div.storyContentImg ul li:last-child {
+	color: gray;
+}
+div.mainStoryForm div.storyContents {
+	clear: both;
+	padding-top: 8px;
+}
+div.mainStoryForm div.storyContents img {
+	padding: 5px;
+	display: block;
+	width: 400px;
+	margin: 0 auto;
+	
+}
+div.mainStoryForm div.storyContents p {
+	margin: 0;
+	
+}
 /***버전.2
 
 
