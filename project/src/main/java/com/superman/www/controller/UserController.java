@@ -22,4 +22,12 @@ public class UserController {
 	public String loginOK() {
 		return "main";
 	}
+	@RequestMapping("/search_id")
+	public String search_id() {
+		return "search_id";
+	}
+	@RequestMapping("/search_pw")
+	public String search_pw() {
+		return "search_pw";
+	}
 }

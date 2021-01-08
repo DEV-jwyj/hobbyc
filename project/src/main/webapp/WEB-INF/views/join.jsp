@@ -16,13 +16,13 @@
 		<header id="logo"><img src="resources/img/logo.png"></header>
 		<form method="post" action="joinOK">
 			<p id="caption">회원가입</p>
-			<input type='text' id='id' name='id' placeholder="아이디" required><br>
+			<input type='text' id='id' name='id' placeholder="아이디" required autocomplete="off"><br>
 			
-			<input type='password' id='pw' name='pw' required placeholder="비밀번호"><br>
+			<input type='password' id='pw' name='pw' required placeholder="비밀번호" autocomplete="off"><br>
 			
-			<input type='password' id='pwc' name='pwc' required placeholder="비밀번호 확인"><br>
+			<input type='password' id='pwc' name='pwc' required placeholder="비밀번호 확인" autocomplete="off"><br>
 			
-			<input type='text' id='phone' name='phone' required placeholder=" - 를 제외한 휴대폰 번호를 입력해주세요."><br><br><br>
+			<input type='text' id='phone' name='phone' required placeholder=" - 를 제외한 휴대폰 번호를 입력해주세요." autocomplete="off"><br><br><br>
 			
 			
 			<input type="text" id="sample4_postcode" name="postcode" placeholder="우편번호" readonly>
