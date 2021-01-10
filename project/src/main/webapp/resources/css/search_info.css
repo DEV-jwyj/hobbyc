@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+input {
+	outline: none;
+}
+
 #logo img{
 	width: 120px;
     float: right;
@@ -9,7 +13,7 @@ div{
 	margin:0 auto;
 	text-align: center;
 }
-div input[type='text'] {
+.text_input {
 	font-weight: bold;
     width: 320px;
     height: 50px;
@@ -17,7 +21,27 @@ div input[type='text'] {
     border: 1px solid #CCCCCC;
     outline:none;
 }
+.first_input {
+	border-bottom:none;
+}
 div input[type='text']:focus{
 	transition:0.3s;
 	border:3px solid #FF7B30;
+}
+.button {
+	font-weight:bold;
+	width: 169px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+}
+.button:last-of-type {
+	margin-left:-10px;
+}
+.button:hover {
+	transition:0.5s;
+	background-color:#FF6D23;
+	color:#FFFFDC;
 }

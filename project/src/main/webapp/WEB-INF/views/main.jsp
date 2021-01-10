@@ -97,9 +97,68 @@
 					</li>
 			</ul>
 		</div>
-		<aside id="">
+		<div class="mainTodayHobbyForm">
+			<h2>오늘의 추천취미</h2>
+			<div class="todayHobby">
+				<div class="imglayOut">
+					<a href=""><img src="resources/img/knitting1.jpg" /></a>
+				</div>
+				<p class="write">빵지</p>
+				<p class="contents">뜨개질로 곰돌이 만들기</p>
+			</div>
+			<div class="todayHobby">
+				<div class="imglayOut">
+					<a href=""><img src="resources/img/baking.jpg" /></a>
+				</div>
+				<p class="write">정욱이</p>
+				<p class="contents">쉬는날은 집에서 쿠키를</p>
+			</div>
+			<c:forEach begin="1" end="2">
+			<div class="todayHobby">
+				<div class="imglayOut">
+					<a href=""><img src="resources/img/embroidery.jpg" /></a>
+				</div>
+				<p class="write">욱도사</p>
+				<p class="contents">십자수는 제 취미입니다.</p>
+			</div>
+			<div class="todayHobby">
+				<div class="imglayOut">
+					<a href=""><img src="resources/img/lego.jpg" /></a>
+				</div>
+				<p class="write">빵지</p>
+				<p class="contents">레고로 레고마을 꾸며봐요!</p>
+			</div>
+			</c:forEach>
+		</div>
+		<div class="moreContents">
+			<a href=""> 오늘의 추천취미 더보기</a>
+		</div>
 		
-		</aside>
+		
+		<div class="mainStoryForm">
+			<h2>회원님의 스토리</h2>
+			<c:forEach begin="1" end="4">
+			<div class="mainStory">
+				<div class="storyContentImg">
+					<img src="resources/img/lego.jpg" />
+					<ul>
+						<li>빵지</li>
+						<li>2021년 01월 08일</li>
+					</ul>
+				</div>
+				<div class="storyContents">
+					<p>
+						레고는 재미있어요 내일은 쉬는날 입니다.<br/>
+						영화를 볼것입니다. 그리고 레고카페도 가고싶습니다.
+					</p>
+					<img src="resources/img/lego.jpg" />	
+				</div>
+			</div>
+			</c:forEach>
+		</div>
+		<div class="moreContents">
+			<a href=""> 스토리 더보기</a>
+		</div>
 	</section>
 	<footer id="footer">
 		

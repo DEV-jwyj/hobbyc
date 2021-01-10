@@ -12,11 +12,11 @@
 	<header id="logo"><img src="resources/img/logo.png"></header>
 	<div>
 		<form method="post" action="search_info_id">
-			<input type="text" name="name" placeholder="이름을 입력해주세요." autocomplete="off">
-			<input type="text" name="phone" placeholder="전화번호를 입력해주세요." autocomplete="off"><br><br><br>
+			<input type="text" name="name" placeholder="이름을 입력해주세요." autocomplete="off" class="text_input first_input">
+			<input type="text" name="phone" placeholder="전화번호를 입력해주세요." autocomplete="off" class="text_input">
 			
-			<input type="submit" value="찾기">
-			<input type="button" value="닫기" onclick="window_close()">
+			<input type="submit" value="찾기" class="button">
+			<input type="button" value="닫기" onclick="window_close()" class="button">
 		</form>
 	</div>
 </body>
