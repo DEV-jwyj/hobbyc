@@ -11,6 +11,8 @@
   - Spring Tool Suite 4 
   - Mybatis ver.3.4.6
   - Apache Tomcat ver.9.0   
+ > 사용한 오픈소스 API 및 JQuery   
+ >> [bxslider](https://bxslider.com/)
 
 ### 진행단계 ( 현재 2020.01.10 )
 DB 계획 및 구성 중
