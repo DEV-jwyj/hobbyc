@@ -137,7 +137,7 @@
 		
 		<div class="mainStoryForm">
 			<h2>회원님의 스토리</h2>
-			<c:forEach begin="1" end="4">
+			<c:forEach begin="1" end="7">
 			<div class="mainStory">
 				<div class="storyContentImg">
 					<img src="resources/img/lego.jpg" />
@@ -148,8 +148,10 @@
 				</div>
 				<div class="storyContents">
 					<p>
+						<a href="">
 						레고는 재미있어요 내일은 쉬는날 입니다.<br/>
-						영화를 볼것입니다. 그리고 레고카페도 가고싶습니다.
+						영화를 볼것입니다. <br/> 그리고 레고카페도 가고싶어요.
+						</a>
 					</p>
 					<img src="resources/img/lego.jpg" />	
 				</div>

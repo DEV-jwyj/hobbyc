@@ -172,28 +172,26 @@ div.bx-wrapper img{
 /**메인 오늘의 추천취미**/
 div.mainTodayHobbyForm {
 	margin-left: 20px;
-	width: 98%;
-	height: auto;
 }
 div.mainTodayHobbyForm div.todayHobby {
 	background-color: #f6f6f6;
-	width: 23%;
+	width: 269px;
 	overflow: hidden;
 	float: left;
 	margin: 15px;
 }
 div.mainTodayHobbyForm div.todayHobby div.imglayOut {
-	width: 400px;
+	width: 269px;
 	height: 250px;
 	overflow: hidden;
 }
 div.mainTodayHobbyForm div.todayHobby div.imglayOut img {
-	width: 400px;
+	width: 269px;
 	height: 250px;
 	transition:1s;
 }
 div.mainTodayHobbyForm div.todayHobby div.imglayOut img:hover {
-	width: 440px;
+	width: 320px;
 	height: 320px;
 }
 div.mainTodayHobbyForm div.todayHobby p.write {
@@ -227,18 +225,16 @@ div.moreContents a:hover {
 /***메인 스토리***/
 div.mainStoryForm {
 	margin-left: 20px;
-	width: 98%;
-	height: auto;
 }
 div.mainStoryForm div.mainStory {
 	border: 1px solid #ddd;
-	width:23%;
+	width:355px;
 	overflow: hidden;
 	float: left;
-	margin: 15px;
+	margin: 5px;
 }
 div.mainStoryForm div.mainStory:hover {
-	border:1.5px solid black;
+	border:1px solid black;
 }
 div.mainStoryForm div.mainStory div.storyContentImg img {
 	width: 80px;
@@ -256,15 +252,23 @@ div.mainStoryForm div.storyContents {
 	clear: both;
 	padding-top: 8px;
 }
+div.mainStoryForm div.storyContents a {
+	color: black;
+}
+div.mainStoryForm div.storyContents a:hover {
+	text-decoration: underline;
+	color: gray;
+}
 div.mainStoryForm div.storyContents img {
 	padding: 5px;
 	display: block;
-	width: 400px;
+	width: 330px;
 	margin: 0 auto;
+	clear: both;
 	
 }
 div.mainStoryForm div.storyContents p {
-	margin: 0;
+	margin: 0 5px;
 	
 }
 /***버전.2
