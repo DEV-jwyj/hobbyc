@@ -9,7 +9,7 @@
   - window 10 ( x64 ) , browser ( chrome )
   - MYSQL ver.8.0.22 / ver.8.0.21  
   - Spring Tool Suite 4 
-  - Mybatis ver.3.4.6
+  - Spring JDBC ver.4.1.4
   - Apache Tomcat ver.9.0   
  > 사용한 오픈소스 API 및 JQuery   
  >> [bxslider](https://bxslider.com/)
